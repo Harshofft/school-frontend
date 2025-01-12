@@ -1,7 +1,7 @@
 .student-card{
     border-radius: 13px;
     margin: 20px;
-    width: 9rem;
+    width: 12rem;
     transition: 0.5s;
     border: 1px solid #8e2de2;
     text-align: center;
@@ -19,3 +19,19 @@
     text-decoration: none;
     color: #8E2DE2;
   } 
+  .del-btn{
+    background-color: #8E2DE2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+  }
+  .del-btn:hover{
+    background-color: #fff;
+    color: #8E2DE2;
+    border: 1px solid #8E2DE2;
+  }

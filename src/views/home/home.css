@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(45deg, #161144, #210D26, #24243E);
+
   animation: bg 12s ease infinite;
   background-color: #160823;
   color: aliceblue;
-  background-repeat:initial;
+  
 }
 .student-card{
   border-radius: 13px;

@@ -2,6 +2,7 @@ import React ,{useEffect , useState}from 'react'
 import axios from 'axios'
 import './home.css'
 import StudentCard from '../../component/studentcard/student'
+
 function App() {
   const [students,setStudents] = useState([]);
   const loadstudent = async()=>{
