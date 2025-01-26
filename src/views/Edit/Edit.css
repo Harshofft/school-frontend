@@ -1,0 +1,25 @@
+
+.add-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.addstud{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 2rem;
+}
+.inputbox{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.toaster{
+    display: none !important;
+}

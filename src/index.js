@@ -4,6 +4,8 @@ import './index.css';
 import Home from './views/home/home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Details from './views/detail/detail';
+import Add from './views/add/add';
+import Update from './views/Edit/Edit';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
@@ -13,6 +15,14 @@ const router = createBrowserRouter([
   ,{
     path:"/detail/:Rollno",
     element:<Details/>
+  }
+  ,{
+    path:"/edit/:Rollno",
+    element:<Update/>
+  },
+  {
+    path:"/add",
+    element:<Add/>
   }
 ])
 root.render(<RouterProvider router={router}/>);
