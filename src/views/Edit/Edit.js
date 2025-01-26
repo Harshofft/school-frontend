@@ -8,9 +8,7 @@ function Add() {
     name: '',
     age: ''
   });
-  // const [rollno, setRollno] = useState('');
-  // const [name, setName] = useState('');
-  // const [age , setAge] = useState(''); 
+ 
   const {Rollno} = useParams();
   const loadstud = async(Rollno)=>{ // this fun will reacive the rollno from the url and fetch the data from the backend
     const res = await axios.get(`http://localhost:5002/students/${Rollno}`);
