@@ -16,9 +16,9 @@ function App() {
 
   return (
     <div className='menu'>
-      <h1 className='heading'>School</h1>
+      <h1 className='heading'>Food club</h1>
       <Link to="/add">
-      <button type="button" className='addbtn' >Add Student</button>
+      <button type="button" className='addbtn' >Add food </button>
       </Link>
     
       <div className='student'>

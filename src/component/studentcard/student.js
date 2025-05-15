@@ -15,8 +15,8 @@ function Student({name,age,Rollno}) {
       Navigate(`/detail/${Rollno}`)
     }}>
     <h1>{name}</h1>
-    <h3>Roll no: {Rollno}</h3>
-    <h3>Age : {age}</h3>
+    <h3>list: {Rollno}</h3>
+    <h3>price : {age}</h3>
     <div className='btn-container'>
     <button type="button" className='del-btn' onClick={(e)=>{
       e.stopPropagation();

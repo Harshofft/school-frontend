@@ -1,6 +1,6 @@
 import React ,{useState, useEffect} from 'react'
 import './Edit.css'
-import axios from 'axios';
+import axios from 'axios';  
 import { useParams } from 'react-router-dom'
 function Add() {
   const [student,setStudent] = useState({
@@ -38,22 +38,22 @@ function Add() {
       <h1 className='add-title'>Update Student</h1>
         <div className='addstud'>
           <input type='text' className='inputbox' 
-          placeholder='Roll no' value={student.Rollno}
+          placeholder='index of food ' value={student.Rollno}
           onChange={(e)=>{ setStudent({...student,rollno:e.target.value})}}
           disabled
           />
           <input type='text' className='inputbox' 
-          placeholder='Name' value={student.name}
+          placeholder='Name of food' value={student.name}
           onChange={(e)=>{
             setStudent({...student,name:e.target.value})
           }}/>
           <input type="number" className='inputbox'
-           placeholder='Age' value={student.age}
+           placeholder='price' value={student.age}
            onChange={(e)=>{setStudent({...student,
             age:e.target.value
            })}}/>        
         </div>
-        <button type='button' className='addbtn' onClick={addStudent}>Update student</button>
+        <button type='button' className='addbtn' onClick={addStudent}>Update Food</button>
      </div>
 
   )
