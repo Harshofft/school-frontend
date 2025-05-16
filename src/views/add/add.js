@@ -39,7 +39,7 @@ function Add() {
            placeholder='price' value={age}
            onChange={(e)=>{setAge(e.target.value)}}/>        
         </div>
-        <button type='button' className='addbtn' onClick={addStudent}>Add student</button>
+        <button type='button' className='addbtn' onClick={addStudent}>Add Food</button>
      </div>
 
   )
